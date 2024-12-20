@@ -5,5 +5,5 @@ dinero= int(input("Igrese la cantidad de dinero:"))
 for billete in billetes:
     if dinero>=billete:
         cantidad=dinero//billete
-        print("Existe " +str(cantidad)+ ( ' moneda ' if dinero < 5 else ' billletes ')+ " de "+str(billete)+ ( ' dólar ' if dinero < 5 else ' dólares '))
+        print("Existe " +str(cantidad)+ ( ' moneda ' if dinero < 5 else ' billetes ')+ " de "+str(billete)+ ( ' dólar ' if dinero < 5 else ' dólares '))
         dinero=dinero%billete
